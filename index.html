@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarca do app Habits" />
+      <button>
+        <img src="./assets/plus.svg" alt="ícone sinal de mais roxo" />
+        <div>Registrar o meu dia</div>
+      </button>
+    </header>
+    <form id="form_habits">
+      <div class="habits">
+        <div class="habit" data-name="study">📚</div>
+        <div class="habit" data-name="hydrate">💧</div>
+        <div class="habit" data-name="train">🏋️‍♂️</div>
+        <div class="habit" data-name="sleep_well">💤</div>
+        <div class="habit" data-name="fun">🎢</div>
+        <div class="habit" data-name="eat">🍖</div>
+      </div>
+      <div class="days"></div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!--<div class="days">
+        <div class="day">
+          <div>19/01</div>
+          <input type="checkbox" name="study" />
+          <input type="checkbox" name="hydrate" />
+          <input type="checkbox" name="train" />
+          <input type="checkbox" name="sleep_well" />
+          <input type="checkbox" name="fun" />
+          <input type="checkbox" name="eat" />
+        </div>
+        <div class="day">
+          <div>20/01</div>
+          <input type="checkbox" name="study" />
+          <input type="checkbox" name="hydrate" />
+          <input type="checkbox" name="train" />
+          <input type="checkbox" name="sleep_well" />
+          <input type="checkbox" name="fun" />
+          <input type="checkbox" name="eat" />
+        </div>
+      </div>-->
